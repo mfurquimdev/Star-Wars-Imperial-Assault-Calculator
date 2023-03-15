@@ -35,10 +35,10 @@ class DefenseSide:
     dodge: int
 
 
-AttackDie = Tuple[
+AttackDie = tuple[
     AttackSide, AttackSide, AttackSide, AttackSide, AttackSide, AttackSide
 ]
-DefenseDie = Tuple[
+DefenseDie = tuple[
     DefenseSide, DefenseSide, DefenseSide, DefenseSide, DefenseSide, DefenseSide
 ]
 
@@ -104,7 +104,7 @@ class Armor:
 
 @dataclass
 class Weapon:
-    dice: list[Die]
+    dice: list[AttackDie]
 
 
 @dataclass
