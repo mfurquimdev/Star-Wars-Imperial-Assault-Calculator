@@ -6,7 +6,7 @@ from typing import Tuple
 from typing import Union
 
 
-@dataclass
+@dataclass(order=True)
 class AttackSide:
     accuracy: int
     damage: int
@@ -27,7 +27,7 @@ class AttackSide:
         )
 
 
-@dataclass
+@dataclass(order=True)
 class DefenseSide:
     evade: int
     block: int
