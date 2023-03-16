@@ -1,0 +1,12 @@
+[run]
+omit =
+    *__init__.py
+    tests/**/*.py
+    validate_live_disag.py
+    scripts/*
+    celery_test.py
+    celeryconfig.py
+    log_manager.py
+    main.py
+    parameter.py
+    */site-packages/*

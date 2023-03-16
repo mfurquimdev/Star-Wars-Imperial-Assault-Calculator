@@ -6,3 +6,5 @@ from .dice import WHITE_DIE
 from .dice import YELLOW_DIE
 from .side import AttackSide
 from .side import DefenseSide
+from .side import ResultRoll
+from .side import SurgeOptions
